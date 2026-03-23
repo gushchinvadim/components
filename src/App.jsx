@@ -23,10 +23,10 @@ function App() {
       <div className='highlight-overlay'></div>
     </div>
     <div className="window">
-      {/* <ShopItemFunc item={item} />      */}
+      <ShopItemFunc item={item} />     
       {/* React-компонент ShopItemFunc (функциональный компонент) */}
 
-      <ShopItemClass item={item} />    
+      {/* <ShopItemClass item={item} />     */}
       {/* React-компонент ShopItemClass (class-based компонент) */}
     
     </div>
